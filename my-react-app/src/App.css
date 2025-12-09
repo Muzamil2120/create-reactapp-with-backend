@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 430px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.form-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  color: #444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #4a90e2;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #357ab7;
+}
+
+/* Messages */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  background: #e9ffe9;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-row {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
